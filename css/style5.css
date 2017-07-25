@@ -1,0 +1,246 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*头部*/
+.head-box{
+	width: 100%;
+	height: 700px;
+	background: url(../img/img1/banner_bbb.png) 0 0 no-repeat;
+	position: relative;
+}
+.words{
+	width: 750px;
+	height: 500px;
+	position: absolute;
+	top:40px;
+	left: 42%; 
+}
+.dp{
+	width: 307px;
+	height: 450px;
+	background: url(../img/img1/dengpao.png) 0 0 no-repeat;
+}
+.title{
+	position: absolute;
+	text-align: center;
+	top: 340px;
+	left: -32%;
+	color: white;
+	z-index: 1000000;
+}
+.title-one{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.title-two{
+	font-size: 55px;
+}
+.nav-box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 65px;
+}
+.nav-left{
+	float: left;
+	width:50%;
+	height: 100%;
+	background:rgba(0,0,0,0.2);
+}
+.nav-left .logo{
+	padding: 11px 15px;
+	width: 80px;
+	background: #000;
+	float: left;
+}
+.nav-left .nav-day{
+	float: left;
+	line-height: 65px;
+	color: white;
+	margin-left: 15px;
+	font-size: 15px;
+
+}
+.nav-left .nav-day img{
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.nav-right{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background:rgba(0,0,0,0.1);
+}
+.nav-item{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+.nav-item li{
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	width: 16.6%;
+	border-left: 2px solid #ca435b;
+	box-sizing:border-box;
+}
+.nav-item li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-item li a:hover{
+	color: #f0ff00;
+}
+/*服务内容*/
+.n-box{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	text-align: center;
+}
+.n-box h1{
+	color: #e94b59;
+	margin-top: 30px;
+}
+.n-box img{
+	margin-top: 25px;
+}
+/*服务流程*/
+.l-box{
+	width: 100%;
+	height: 700px;
+	overflow: hidden;
+	text-align: center;
+	background: #f2f0f0;
+}
+.l-box h1{
+	color: #e94b59;
+	margin-top: 30px;
+}
+.l-left{
+	width: 440px;
+	height: 600px;
+	float: left;
+	margin-left: 480px;
+}
+.l-one{
+	width: 425px;
+	height: 160px;
+	
+	margin-top: 50px;
+
+}
+.l-one p{
+	width: 100%;
+	text-align: right;
+	display: block;
+}
+.l-one .lo{
+	background: #d9e5ec;
+	margin-top: 10px;
+	padding: 5px;
+}
+.l-right{
+	float: left;
+	margin-top: 80px;
+	margin-left: 30px;
+}
+.l-two{
+	width: 425px;
+	height: 160px;
+	margin-top: 50px;
+
+}
+.l-two p{
+	width: 100%;
+	text-align: left;
+	display: block;
+}
+.l-two .lo{
+	background: #f3e1d8;
+	margin-top: 10px;
+	padding: 5px;
+}
+/*客户案例*/
+.k-box{
+	width: 100%;
+	height: 350px;
+	overflow: hidden;
+	text-align: center;
+}
+.k-box h1{
+	color:#e94b59;
+	margin-top: 30px; 
+}
+.k-box img{
+	margin-top: 50px;
+}
+/*咨询留言*/
+.z-box{
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	background: #f2f0f0;
+	overflow: hidden;
+}
+.z-box h1{
+	color: #e94b59;
+	margin-top: 30px;
+}
+.d-cont{
+	width: 625px;
+	height: 340px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 20px;
+}
+.d-cont  p{
+	width: 100%;
+	height: 40px;
+	margin-top: 15px;
+}
+.d-cont input{
+	width: 460px;
+	height: 30px;
+	float: left;
+	background: none;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	margin-left: 10px;
+
+}
+.d-cont span{
+	width: 80px;
+	height: 40px;
+	display: block;
+	float: left;
+}
+.d-cont textarea{
+	margin-left: 10px;
+	background: none;
+	border: 2px solid #ccc;
+}
+.z-box button{
+	border: none;
+	background: #ff5d5a;
+	border-radius: 10px;
+	padding: 5px 8px;
+	font-size: 20px;
+	color: #fff;
+	margin-left: 380px;
+}
+/*脚本*/
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #ba0013;
+	text-align: center;
+	overflow: hidden;
+}
+.footer p{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 20px;
+}

@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*头部*/
+.head-box{
+	width: 100%;
+	height: 700px;
+	background: url(../img/img1/banner_bbb.png) 0 0 no-repeat;
+	position: relative;
+}
+.words{
+	width: 750px;
+	height: 500px;
+	position: absolute;
+	top:40px;
+	left: 42%; 
+}
+.dp{
+	width: 307px;
+	height: 450px;
+	background: url(../img/img1/dengpao.png) 0 0 no-repeat;
+}
+.title{
+	position: absolute;
+	text-align: center;
+	top: 340px;
+	left: -32%;
+	color: white;
+	z-index: 1000000;
+}
+.title-one{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.title-two{
+	font-size: 55px;
+}
+.nav-box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 65px;
+}
+.nav-left{
+	float: left;
+	width:50%;
+	height: 100%;
+	background:rgba(0,0,0,0.2);
+}
+.nav-left .logo{
+	padding: 11px 15px;
+	width: 80px;
+	background: #000;
+	float: left;
+}
+.nav-left .nav-day{
+	float: left;
+	line-height: 65px;
+	color: white;
+	margin-left: 15px;
+	font-size: 15px;
+
+}
+.nav-left .nav-day img{
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.nav-right{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background:rgba(0,0,0,0.1);
+}
+.nav-item{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	
+
+}
+.nav-item li{
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	width: 16.6%;
+	border-left: 2px solid #ca435b;
+	box-sizing:border-box;
+}
+.nav-item li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-item li a:hover{
+	color: #f0ff00;
+}
+/*广告主*/
+.g-box{
+	width: 100%;
+	height: 570px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.g-box h1{
+	margin-top: 25px;
+	font-size: 30px;
+	color: #e94b59;
+}
+.g-box p{
+	font-size: 20px;
+	margin-top: 5px;
+}
+.g-box p span{
+	font-size: 25px;
+	color: #ea5413;
+}
+.g-box .im1{
+	position: absolute;
+	left: 430px;
+	top: 200px;
+}
+.g-box .im2{
+	position: absolute;
+	left: 1170px;
+	top: 200px;
+}
+/*图片*/
+.t-box{
+	width: 100%;
+	height: 460px;
+	background: #f2f0f0;
+	text-align: center;;
+}
+.t-box img{
+	margin-top: 50px;
+	padding-left: 30px;
+}
+/*脚本*/
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #ba0013;
+	text-align: center;
+	overflow: hidden;
+}
+.footer p{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 20px;
+}

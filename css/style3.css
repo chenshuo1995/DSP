@@ -1,0 +1,320 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*头部*/
+.head-box{
+	width: 100%;
+	height: 700px;
+	background: url(../img/img1/banner_bbb.png) 0 0 no-repeat;
+	position: relative;
+}
+.words{
+	width: 750px;
+	height: 500px;
+	position: absolute;
+	top:40px;
+	left: 42%; 
+}
+.dp{
+	width: 307px;
+	height: 450px;
+	background: url(../img/img1/dengpao.png) 0 0 no-repeat;
+}
+.title{
+	position: absolute;
+	text-align: center;
+	top: 340px;
+	left: -32%;
+	color: white;
+	z-index: 1000000;
+}
+.title-one{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.title-two{
+	font-size: 55px;
+}
+.nav-box{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 65px;
+}
+.nav-left{
+	float: left;
+	width:50%;
+	height: 100%;
+	background:rgba(0,0,0,0.2);
+}
+.nav-left .logo{
+	padding: 11px 15px;
+	width: 80px;
+	background: #000;
+	float: left;
+}
+.nav-left .nav-day{
+	float: left;
+	line-height: 65px;
+	color: white;
+	margin-left: 15px;
+	font-size: 15px;
+
+}
+.nav-left .nav-day img{
+	vertical-align: middle;
+	margin-left: 15px;
+}
+.nav-right{
+	float: left;
+	width: 50%;
+	height: 100%;
+	background:rgba(0,0,0,0.1);
+}
+.nav-item{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	
+
+}
+.nav-item li{
+	float: left;
+	text-align: center;
+	line-height: 65px;
+	width: 16.6%;
+	border-left: 2px solid #ca435b;
+	box-sizing:border-box;
+}
+.nav-item li a{
+	color: white;
+	text-decoration: none;
+}
+.nav-item li a:hover{
+	color: #f0ff00;
+}
+/*独家*/
+.d-box{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	text-align: center;
+}
+.d-box p{
+	font-size: 20px;
+	margin-top: 20px;
+}
+.d-box p span{
+	font-size: 30px;
+	color: #ea5413;
+}
+.d-box img{
+	margin-top: 50px;
+}
+/*国内*/
+.g-box{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: #f2f0f0;
+	text-align: center;
+}
+.g-box h1{
+	color: #e94b59;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.g-box img{
+	margin: 50px auto;
+}
+/*国外*/
+.w-box{
+	width: 100%;
+	height: 550px;
+	overflow: hidden;
+	
+	text-align: center;
+}
+.w-box h1{
+	color: #e94b59;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.w-box img{
+	margin: 50px auto;
+}
+/*资源位置*/
+.z-box{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+	background: #f2f0f0;
+	text-align: center;
+}
+.z-box h1{
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: #e94b59;
+}
+.z-box img{
+	margin-left: 10px;
+}
+/*如何定向精准用户*/
+.y-box{
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+}
+.y-box h1{
+	font-size: 30px;
+	color: #e94b59;
+	margin-top: 25px;
+}
+.y-box h2{
+	font-size: 25px;
+	margin-top: 10px;
+}
+.y-box p{
+	font-size: 16px;
+	margin-top: 10px;
+}
+.y-one{
+	width: 315px;
+	height: 210px;
+	position: absolute;
+	left: 390px;
+	top: 240px;
+	background: #fff6f7;
+}
+.y-box .y-one p{
+	text-align: left;
+	font-size: 14px;
+	padding-left: 5px;
+
+}
+.y-two{
+	position: absolute;
+	left: 1300px;
+	top: 250px;
+	background: url(../img/img3/fangkuai.png) 0  12px no-repeat;
+	width: 135px;
+	height: 160px;
+}
+.y-two p{
+	margin-left: 30px;
+	width: 150px;
+	text-align: left;
+}
+/*四种消费*/
+.s-box{
+	width: 100%;
+	height: 460px;
+	text-align: center;
+	margin-top: 50px;
+}
+.s-box h1{
+	font-size: 25px;
+}
+.s-box p{
+	margin-top: 10px;
+}
+.s-content{
+	background: url(../img/img2/quxian.png) 0 0 no-repeat;
+	width: 696px;
+	height: 255px;
+	margin: 50px 560px 0;
+	position: relative;
+}
+.s-box .s-one{
+	text-align: left;
+	width: 250px;
+	color: #0080c8;
+	font-size: 14px;
+	position: absolute;
+	left: 80px;
+	top: 7px;
+}
+.s-one ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.s-one ul li{
+	float: left;
+	margin: 0 18px;
+}
+.s-box .s-two{
+	text-align: left;
+	width: 250px;
+	color: #9ac600;
+	font-size: 14px;
+	position: absolute;
+	left: 420px;
+	top: 40px;
+}
+.s-two ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.s-two ul li{
+	float: left;
+	margin: 0 13px;
+	width: 58px;
+}
+.s-box .s-thr{
+	text-align: left;
+	width: 340px;
+	color: #ff6000;
+	font-size: 14px;
+	position: absolute;
+	left: 8px;
+	top: 150px;
+}
+.s-thr ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.s-thr ul li{
+	float: left;
+	margin: 0 13px;
+	width: 72px;
+}
+.s-box .s-four{
+	text-align: left;
+	width: 340px;
+	color: #ba0202;
+	font-size: 14px;
+	position: absolute;
+	left: 705px;
+	top: 100px;
+}
+.s-four ul{
+	width: 100%;
+	height: 30px;
+	margin-top: 5px;
+}
+.s-four ul li{
+	float: left;
+	margin: 0 13px;
+	width: 72px;
+}
+/*脚本*/
+.footer{
+	width: 100%;
+	height: 80px;
+	background: #ba0013;
+	text-align: center;
+	overflow: hidden;
+}
+.footer p{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 20px;
+}
